@@ -29,12 +29,22 @@ This turborepo has some additional tools already setup for you:
 - [Husky](https://typicode.github.io/husky/) for Git Hooks
 - [CommitLint](https://commitlint.js.org/) for Commit Lint
 
+### Install
+
+To install all packages, run the following command:
+
+```
+cd monorepo-boilerplate
+pnpm install
+npm run prepare
+```
+
 ### Build
 
 To build all apps and packages, run the following command:
 
 ```
-cd my-turborepo
+cd monorepo-boilerplate
 pnpm run build
 ```
 
@@ -43,7 +53,7 @@ pnpm run build
 To develop all apps and packages, run the following command:
 
 ```
-cd my-turborepo
+cd monorepo-boilerplate
 pnpm run dev
 ```
 
@@ -54,7 +64,7 @@ Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo
 By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
 
 ```
-cd my-turborepo
+cd monorepo-boilerplate
 pnpm dlx turbo login
 ```
 
