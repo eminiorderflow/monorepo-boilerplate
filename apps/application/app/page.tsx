@@ -9,7 +9,9 @@ export default function Home() {
             Welcome to Nextjs 13 Application Boilerplate!
           </h1>
           <div className="flex justify-center py-5">
-            <Button label="Go to Site" />
+            <a href="https://monorepo-boilerplate-site.vercel.app/">
+              <Button label="Go to Site" />
+            </a>
           </div>
         </div>
       </section>

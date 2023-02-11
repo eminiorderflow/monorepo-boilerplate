@@ -1,6 +1,6 @@
-# Turborepo starter
+# NextJS 13 Tailwind Turborepo Boilerplate
 
-This is an official pnpm starter turborepo.
+This is boilerplate.
 
 ## What's inside?
 
@@ -8,11 +8,13 @@ This turborepo uses [pnpm](https://pnpm.io) as a package manager. It includes th
 
 ### Apps and Packages
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
+- `application`: a [Next.js](https://nextjs.org/) app
+- `site`: another [Next.js](https://nextjs.org/) app
 - `ui`: a stub React component library shared by both `web` and `docs` applications
 - `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
+- `prettier`: `.prettierrc`s used throughout the monorepo
+- `Tailwind CSS`: `tailwind.config.js and postcss.config.js`s used throughout the monorepo
 
 Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 
@@ -23,6 +25,9 @@ This turborepo has some additional tools already setup for you:
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
 - [ESLint](https://eslint.org/) for code linting
 - [Prettier](https://prettier.io) for code formatting
+- [Tailwind](https://tailwindcss.com/docs/guides/nextjs) for CSS
+- [Husky](https://typicode.github.io/husky/) for Git Hooks
+- [CommitLint](https://commitlint.js.org/) for Commit Lint
 
 ### Build
 
