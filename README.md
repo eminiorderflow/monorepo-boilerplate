@@ -63,9 +63,11 @@ pnpm run dev
 git init
 git add .
 git commit -m "initial commit"
-git branch -M main
 git remote add origin https://github.com/eminiorderflow/monorepo-boilerplate.git
 git push -u origin main or git push -u origin master or git push origin master
+
+git checkout -b <branch-name>
+git push <remote-name> <branch-name>
 ```
 
 ### Remote Caching
