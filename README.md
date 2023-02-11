@@ -57,6 +57,17 @@ cd monorepo-boilerplate
 pnpm run dev
 ```
 
+### Git Remote Commands
+
+```
+git init
+git add .
+git commit -m "initial commit"
+git branch -M main
+git remote add origin https://github.com/eminiorderflow/monorepo-boilerplate.git
+git push -u origin main or git push -u origin master or git push origin master
+```
+
 ### Remote Caching
 
 Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
