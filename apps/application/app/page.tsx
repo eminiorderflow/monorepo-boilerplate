@@ -8,7 +8,9 @@ export default function Home() {
           <h1 className="font-bold underline">
             Welcome to Nextjs 13 Application Boilerplate!
           </h1>
-          <Button />
+          <div className="flex justify-center py-5">
+            <Button label="Go to Site" />
+          </div>
         </div>
       </section>
     </main>
